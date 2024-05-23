@@ -1,0 +1,64 @@
+{
+    "usuarios": [
+        {
+            "nome": "Maria Silva",
+            "data_nascimento": "12/06/1985",
+            "cpf": "12345678900",
+            "endereco": {
+                "rua": "Rua das Flores",
+                "numero": "123",
+                "cidade": "São Paulo",
+                "estado": "SP"
+            },
+            "numero_conta": 1
+        },
+        {
+            "nome": "João Pereira",
+            "data_nascimento": "22/08/1990",
+            "cpf": "98765432100",
+            "endereco": {
+                "rua": "Avenida Brasil",
+                "numero": "456",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ"
+            },
+            "numero_conta": 2
+        },
+        {
+            "nome": "Ana Costa",
+            "data_nascimento": "15/03/1975",
+            "cpf": "11122233344",
+            "endereco": {
+                "rua": "Rua da Liberdade",
+                "numero": "789",
+                "cidade": "Belo Horizonte",
+                "estado": "MG"
+            },
+            "numero_conta": 3
+        },
+        {
+            "nome": "Carlos Oliveira",
+            "data_nascimento": "30/11/1982",
+            "cpf": "55566677788",
+            "endereco": {
+                "rua": "Rua do Comércio",
+                "numero": "101",
+                "cidade": "Curitiba",
+                "estado": "PR"
+            },
+            "numero_conta": 4
+        },
+        {
+            "nome": "Fernanda Souza",
+            "data_nascimento": "10/01/1995",
+            "cpf": "99988877766",
+            "endereco": {
+                "rua": "Avenida Paulista",
+                "numero": "202",
+                "cidade": "São Paulo",
+                "estado": "SP"
+            },
+            "numero_conta": 5
+        }
+    ]
+}
