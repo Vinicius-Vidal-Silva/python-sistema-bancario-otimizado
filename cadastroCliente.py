@@ -120,7 +120,7 @@ def cpf_existe(cpf):
         with open('usuarios.json', 'r') as arquivo_json:
             lista_usuarios_json = json.load(arquivo_json)
             for usuario_json in lista_usuarios_json:
-                if usuario_json["cpf"] == cpf:
+                if usuario_json == cpf:
                     return True
     except (FileNotFoundError, json.JSONDecodeError):
         pass
@@ -152,6 +152,7 @@ def main():
 
     while True:
         novo_usuario = cadastrar_usuario()
+        cadastroConta.cadastrarConta()
         if novo_usuario:
             cadastroConta.cadastrarConta(novo_usuario)
         
